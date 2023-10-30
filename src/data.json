@@ -1,34 +1,48 @@
 [
   {
-    "headline": "Your Result",
-    "yourScore": 76,
-    "totalScore": "of 100",
-    "successHeadline": "Great",
-    "successDesc": "You scored higher than 65% of the people who have taken these tests.",
-    "summary": "Summary",
-    "button": "Continue"
+    "result": {
+      "headline": "Your Result",
+      "yourScore": 76,
+      "totalScore": "of 100",
+      "successHeadline": "Great",
+      "successDesc": "You scored higher than 65% of the people who have taken these tests."
+    }
   },
   {
-    "yourScore": {
-      "category": "Reaction",
-      "score": 80,
-      "icon": "./assets/images/icon-reaction.svg"
-    },
+    "summary": {
+      "summary": "Summary",
+      "button": "Continue"
+    }
+  },
+  {
     "scores": [
+      {
+        "category": "Reaction",
+        "score": 80,
+        "icon": "/images/icon-reaction.svg",
+        "color": "var(--light-red)",
+        "bg": "var(--light-red-low)"
+      },
       {
         "category": "Memory",
         "score": 92,
-        "icon": "./assets/images/icon-memory.svg"
+        "icon": "/images/icon-memory.svg",
+        "color": "var(--orangey-yellow)",
+        "bg": "var(--orangey-yellow-low)"
       },
       {
         "category": "Verbal",
         "score": 61,
-        "icon": "./assets/images/icon-verbal.svg"
+        "icon": "/images/icon-verbal.svg",
+        "color": "var(--green-teal)",
+        "bg": "var(--green-teal-low)"
       },
       {
         "category": "Visual",
         "score": 72,
-        "icon": "./assets/images/icon-visual.svg"
+        "icon": "/images/icon-visual.svg",
+        "color": "var(--cobalt-blue)",
+        "bg": "var(--cobalt-blue-low)"
       }
     ]
   }

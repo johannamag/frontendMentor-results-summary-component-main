@@ -1,25 +1,26 @@
-import styled from 'styled-components'
-import Card from './components/Card'
-import Footer from './components/Footer'
+import styled from "styled-components";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 const Container = styled.div`
-  height: 100vh;
+  min-height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: var(--pale-blue);
-`
+`;
 
 function App() {
-
   return (
-    <Container>
-      <Card />
+    <>
+      <Container>
+        <Card />
+      </Container>
       <Footer />
-    </Container>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

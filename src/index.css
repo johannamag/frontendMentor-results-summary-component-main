@@ -2,13 +2,17 @@
 
 :root {
   --light-red: hsl(0, 100%, 67%);
+  --light-red-low: hsla(0, 100%, 67%, 0.15);
   --orangey-yellow: hsl(39, 100%, 56%);
+  --orangey-yellow-low: hsla(39, 100%, 56%, 0.15);
   --green-teal: hsl(166, 100%, 37%);
+  --green-teal-low: hsla(166, 100%, 37%, 0.15);
   --cobalt-blue: hsl(234, 85%, 45%);
+  --cobalt-blue-low: hsla(234, 85%, 45%, 0.15);
   --light-slate-blue-bg: hsl(252, 100%, 67%);
   --light-royal-blue-bg: hsl(241, 81%, 54%);
   --violet-blue-circle: hsla(256, 72%, 46%, 1);
-  --persian-blue-circle-: hsla(241, 72%, 46%, 0);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
   --white: hsl(0, 0%, 100%);
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavender: hsl(241, 100%, 89%);
